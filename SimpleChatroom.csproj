@@ -141,6 +141,7 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="index.aspx" />
     <Content Include="LogIn.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -189,6 +190,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="LogIn.aspx.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
