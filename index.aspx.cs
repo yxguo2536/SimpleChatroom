@@ -12,7 +12,7 @@ namespace SimpleChatroom
         protected void Page_Load(object sender, EventArgs e)
         {
             //index.aspx只是為了放在somee.com上所創，只會重新導向Chatroom.aspx
-            Response.Redirect("Chatroom.aspx");
+            Response.Redirect("http:/simplechatroom.somee.com/Chatroom.aspx");
         }
     }
 }

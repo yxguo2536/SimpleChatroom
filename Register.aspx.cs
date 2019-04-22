@@ -63,7 +63,7 @@ namespace SimpleChatroom
                         cmd.Parameters.AddWithValue("@sex", sex);
                         cmd.ExecuteNonQuery();
                     
-                        Response.Redirect("Chatroom.aspx");
+                        Response.Redirect("http:/simplechatroom.somee.com/Chatroom.aspx");
                     }
                     else
                     {
@@ -98,7 +98,7 @@ namespace SimpleChatroom
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("LogIn.aspx");
+            Response.Redirect("http:/simplechatroom.somee.com/LogIn.aspx");
         }
     }
 }

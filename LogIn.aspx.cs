@@ -48,7 +48,7 @@ namespace SimpleChatroom
                         Session["id"] = reader[0].ToString();
                         Session["name"] = reader[1].ToString();
 
-                        Response.Redirect("Chatroom.aspx");
+                        Response.Redirect("http:/simplechatroom.somee.com/Chatroom.aspx");
                     }
                 }
                 catch (Exception ex)
@@ -77,7 +77,7 @@ namespace SimpleChatroom
 
         protected void ButtonRegister_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Register.aspx");
+            Response.Redirect("http:/simplechatroom.somee.com/Register.aspx");
         }
     }
 }
