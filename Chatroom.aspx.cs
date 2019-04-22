@@ -15,7 +15,7 @@ namespace SimpleChatroom
             //如果沒有login，重新導向LogIn頁面
             if ( ((String)Session["Login"]).Equals("") )
             {
-                Response.Redirect("http:/simplechatroom.somee.com/LogIn.aspx");
+                Response.Redirect("LogIn.aspx");
             }
 
             //如果是第一次載入，就用ListAll()顯示全部對話。不然則是ajax，只要更新一條對話就好
@@ -91,7 +91,7 @@ namespace SimpleChatroom
             Session["id"] = "";
             Session["name"] = "";
 
-            Response.Redirect("http:/simplechatroom.somee.com/LogIn.aspx");
+            Response.Redirect("LogIn.aspx");
 
         }
     }

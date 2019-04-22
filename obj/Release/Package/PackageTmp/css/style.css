@@ -1,0 +1,17 @@
+﻿body {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    background-image: url('/image/BackGroundImage.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#UpdatePanel1 {
+    font-size: 1.2em;
+    line-height: 2;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    margin-left: 8%;
+}
